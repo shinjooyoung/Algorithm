@@ -22,7 +22,28 @@ public class InsertionSort {
 		}
 		
 		for(int num : array) {
-			System.out.println(num);
+//			System.out.println(num);
+		}
+		
+		//삽입 정렬 과정 출력
+		int[] array2 = {26,5,37,1,61,11,59,15,48,19};
+		int temp2 = 0;
+		
+		for(int i = 0; i < array2.length-1; i++) {
+			for(int k = 0; k < i; k++) {
+				System.out.print(array2[k] + " ");
+			}
+			System.out.println();
+			int j = i;
+			while(array2[j] > array2[j+1]) {
+				temp2 = array2[j];
+				array2[j] = array2[j+1];
+				array2[j+1] = temp2;
+				if(j != 0) {
+					j--;
+				}
+			}
+			
 		}
 
 		
