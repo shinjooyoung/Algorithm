@@ -1,5 +1,4 @@
 # Algorithm 마음대로 정리
-Algorithm
 
 ## Big-O 표기법
 - 알고리즘의 성능을 시각적으로 표시, 시간, 공간 
