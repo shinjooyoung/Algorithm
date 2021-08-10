@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Snake {
 
 	public static void main(String[] args) {
-		
+		//실패 접근 자체를 잘못함
 		Scanner sc = new Scanner(System.in);
 		
 		int n = sc.nextInt();

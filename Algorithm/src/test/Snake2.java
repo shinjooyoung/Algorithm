@@ -70,7 +70,7 @@ class SnakeBody implements Comparable<SnakeBody>{
 public class Snake2 {
 
 	public static void main(String[] args) {
-		
+		// 풀이보고 재시도
 		Scanner sc = new Scanner(System.in);
 		
 		int n = sc.nextInt();
