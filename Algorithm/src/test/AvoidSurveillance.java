@@ -7,7 +7,7 @@ public class AvoidSurveillance {
 	static int n;
 	static String[][] filed, obstacle;
 	static boolean[][] check;
-	static boolean result = false;
+	static boolean result = false; 
 	static int[] nx = {1,-1,0,0};
 	static int[] ny = {0,0,1,-1};
 	
