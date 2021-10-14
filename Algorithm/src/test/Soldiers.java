@@ -27,7 +27,7 @@ public class Soldiers {
 		
 		
 		for(int i = 1; i < N; i++) {
-			for(int j = 0; j < N; j++) {
+			for(int j = 0; j < i; j++) {
 				if(soldiers.get(i) > soldiers.get(j)) {
 					dp[i] = Math.max(dp[i], dp[j] + 1);					
 				}
@@ -39,6 +39,7 @@ public class Soldiers {
 		for(int i = 0; i < N; i++) {
 			maxValue = Math.max(maxValue, dp[i]);
 		}
+		System.out.println(N-maxValue);
 	}
 
 }
